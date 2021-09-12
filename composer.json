@@ -1,0 +1,41 @@
+{
+    "name": "sikessem/array-object",
+    "type": "library",
+    "description": "PHP array objects",
+    "license": "Apache-2.0",
+    "keywords": [
+        "array-object",
+        "sikessem",
+        "php"
+    ],
+    "authors": [{
+        "homepage": "https://sikessem.com/",
+        "name": "SIGUI Kessé Emmanuel",
+        "email": "opensource@sikessem.com",
+        "role": "Developer"
+    }],
+    "support": {
+        "source": "https://github.com/SIKessEm/ArrayObject.php",
+        "issues": "https://github.com/SIKessEm/ArrayObject.php/issues"
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "files": [
+            "ext/sikessem-array_object.php"
+        ],
+        "psr-4": {
+          "SIKessEm\\ArrayObject\\": "lib/"
+        }
+    },
+    "homepage": "https://github.com/SIKessEm/ArrayObject.php#readme",
+    "config": {
+    	"vendor-dir": "pkg",
+        "bin-dir": "cli",
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
